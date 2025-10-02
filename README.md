@@ -1,10 +1,26 @@
 # DJI-MSDK-to-PC / OpenDJI
-This project seek to give convenient way to control the `DJI mini 3 pro` drone (and similars)
-without the need to make android app each time!
+This project seek to give convenient way to control DJI's drones with MSDK enabled, without the
+need to make android app each time!
+
+Supported drones:
+
+* `Matrice 350 RTK`
+* `Matrice 300 RTK`
+* `DJI Mini 4 Pro`
+* `DJI Mini 3`
+* `DJI Mini 3 Pro`
+* `DJI Mavic 3 Enterprise Series`
+* `DJI Mavic 3M`
+* `DJI Mavic 3TA`
+* `Matrice 30 Series`
+* `Matrice 4E/4T`
+* `Matrice 4D/4TD`
+* `Matrice 400`
 
 The project consists of android app that you run on a phone connected to the remote controller,
 from your PC you connect to your phone, and you have control over the drone using:
-*python*, *c++* or any language you would like with ease.
+*python*, *c++* or any language you would like with ease over sockets. A complete python library
+included with examples for integrating the project easily with any python code.
 
 
 ## How to use
